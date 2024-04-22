@@ -1,0 +1,55 @@
+.title{
+    text-align: center;
+    font-size: 30px;
+    line-height: 300px;
+}
+.div_an{
+    height: 300px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRchFCAky37dcvzm4cX3vlfFDEMEAeY2rqz6-PrwXpUtA&s');
+    max-width: 600px;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+.div_an.first{
+    margin-top: 170px;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
